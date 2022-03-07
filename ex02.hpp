@@ -2,7 +2,7 @@
 // the function below now only works with integers, change it to work with any type
 // also fill out the body
 template < typename T >
-public class Calculator {
+class Calculator {
 private:
     T num1, num2;
 
@@ -15,7 +15,7 @@ public:
     T add() { return num1 + num2;}
     T subtract() {  return num1 - num2;/*your code here*/ }
     T multiply() { return num1 * num2;/*your code here*/ }
-    T divide() { return num1 / num2; /*your code here*/ }
+    double divide() { return num1 / num2; /*your code here*/ }
 };
 
 
